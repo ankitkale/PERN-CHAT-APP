@@ -1,0 +1,21 @@
+PRISMA -> helps in connection with db.
+NEON DB -> cloud db that uses postgrese.
+------NEON DB connection tut. ------
+create free project on neon db -> overview -> connect -> connection string -> prisma -> .env
+
+prisma setup -> npm i prisma @prisma/client
+cd backend
+npx prisma init
+// you wil get schema.prisma
+
+// also can add PRISMA extention
+
+-> make .env in root dir. and paste the database_url there. 
+
+// now in the schema.prisma , define the db structure the models, relation etc
+
+-> goto backend dir in terminal and run the following command to push the schema to neonDB
+"npx prisma db push"
+
+// now in the neon server you can see the tables
+
