@@ -17,3 +17,6 @@ app.use("/api/messages", messageRoutes)
 app.listen(5000, ()=>{
     console.log("server is running onport 5000");
 })
+
+// todo: add socket.io
+// todo: make this ready for deployment

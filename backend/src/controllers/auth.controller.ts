@@ -72,8 +72,8 @@ export const login = async (req:Request, res:Response) => {
         generateToken(user.id, res);
         res.status(200).json({ success: "loggedin successfully"
             // id: user.id,
-            // fullName: user.fullName,
-            // username: user.username,
+            // fullName: user.fullName,         
+            // username: user.username,         
             // profilePic: user.profilePic
         });
 
